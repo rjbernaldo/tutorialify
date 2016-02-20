@@ -1,0 +1,23 @@
+{
+  "name": "tutorialify",
+  "version": "0.0.1",
+  "description": "View any github repo's commit list step by step in chronological order. Selected commits's changes are shown in full detail dynamically.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjbernaldo/tutorialify.git"
+  },
+  "keywords": [
+    "tutorial",
+    "react"
+  ],
+  "author": "Rj Bernaldo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rjbernaldo/tutorialify/issues"
+  },
+  "homepage": "https://github.com/rjbernaldo/tutorialify#readme"
+}
