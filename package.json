@@ -4,7 +4,7 @@
   "description": "View any github repo's commit list step by step in chronological order. Selected commits's changes are shown in full detail dynamically.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,14 @@
   },
   "homepage": "https://github.com/rjbernaldo/tutorialify#readme",
   "devDependencies": {
+    "browser-sync": "^2.11.1",
     "browserify": "^13.0.0",
     "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-run": "^1.6.12",
+    "gulp-util": "^3.0.7",
     "jest": "^0.1.40",
+    "jest-cli": "^0.8.2",
     "mocha": "^2.4.5",
     "reactify": "^1.1.1",
     "uglifyify": "^3.0.1"
